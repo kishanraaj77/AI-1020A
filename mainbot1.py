@@ -8,7 +8,7 @@ from botstart1 import EchoBot
 app = Flask(__name__)
 loop = asyncio.get_event_loop()
 
-botadaptersettings = BotFrameworkAdapterSettings("","")
+botadaptersettings = BotFrameworkAdapterSettings("abe5fc03-27fa-4f1c-a396-447f23461716","0e7a5ded-e666-48cd-8954-55c450aa0065")
 botadapter = BotFrameworkAdapter(botadaptersettings)
 
 ebot = EchoBot()
